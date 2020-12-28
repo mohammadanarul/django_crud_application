@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 30px;
+    min-height: 100vh;
+}
+/* .card:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    transition: .10;
+} */
+.nav-link:hover{
+    color: #000000;
+}
+.time{
+    font-size: 14px;
+}
+.post-title{
+    font-size: 25px;
+}
+.post-content{
+    font-size: 20px;
+}
+/* Footer area */
+.footer-area{
+    background-color: #5a5959;
+    overflow: hidden;
+}
+.footer-title{
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+    padding: 20px;
+}
