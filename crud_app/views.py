@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
+
 
 def home_page_view(request):
     template_name = 'home.html'

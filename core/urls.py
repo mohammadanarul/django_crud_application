@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from posts.views import home_page_view
+from crud_app.views import home_page_view
 urlpatterns = [
     path('', home_page_view, name='home'),
     path('admin/', admin.site.urls),
-    path('post/', include('posts.urls', namespace='post')),
+    path('crud/', include('crud_app.urls', namespace='crud')),
 ]
