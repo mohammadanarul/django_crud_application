@@ -3,9 +3,40 @@
     padding: 0px;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: Fira Code;
+    color: #000000;
+}
+h4{
+    font-size: 18px;
+}
+/* custom css */
 .main{
-    margin-top: 30px;
     min-height: 100vh;
+    height: 100%;
+}
+.banner-cover{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 94, 94), rgb(255, 85, 190)), url("../images/female_pic.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.banner-cover p{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.circle-round{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 /* .card:hover{
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;

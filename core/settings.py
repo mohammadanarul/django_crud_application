@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # custom app join below
-    'crud_app.apps.CrudAppConfig',
+    'post.apps.PostConfig',
     # third party app join below
 ]
 
