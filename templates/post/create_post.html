@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head_title %}post create{% endblock head_title %}
+{% block main_content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xl-8 m-auto">
+            <div class="card mt-5">
+                <h2 class="text-center mb-2 mt-2 text-muted">Post Create</h2>
+                <div class="card-body">
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <input type="text" name="title" class="form-control mb-3">
+                        <textarea name="body" cols="30" rows="10" class="form-control mb-3"></textarea>
+                        <button class="btn btn-primary">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}
